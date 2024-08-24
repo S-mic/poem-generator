@@ -12,19 +12,29 @@
 
 <body>
   <h1>Welcome to the AI Poem Generator</h1>
-  <main>
-    <form id="poem-generator-form">
-      <input type="text" placeholder="Enter the topic of a poem" autofocus required autocomplete="off"
-        class="instructions" />
-      <input type="submit" class="submit-button" />
-    </form>
-    <div class="poem" id="poem"></div>
-  </main>
+   <main>
+        <div class="form-container">
+          <form id="poem-generator-form">
+            <input
+              type="text"
+              placeholder="Enter the topic of a French poem"
+              autofocus
+              required
+              autocomplete="off"
+              class="instructions"
+              id="user-instructions"
+            />
+            <input type="submit" class="submit-button" />
+          </form>
+          <div class="hint">i.e: Flower, Paris or Cheese</div>
+        </div>
+        <div class="poem hidden" id="poem"></div>
+      </main>
   <footer>
     This AI project was coded by
     <a href="https://github.com/s-mic/" target="_blank">Sasha</a> and
     is
-    <a href="https://github.com/S-mic/poem-generator" target="_blank">
+    <a href="https://git/home/sasha-michell/Projects/poem-generator/index.htmlhub.com/S-mic/poem-generator" target="_blank">
       open-sourced on GitHub</a>
     and is
     <a href="https://poem-generator-sasham.netlify.app/" target="_blank">hosted on Netlify</a>.
